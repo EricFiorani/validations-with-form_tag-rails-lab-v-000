@@ -1,3 +1,3 @@
 class Post < ActiveRecord::Base
-  validates
+  validates :title, uniqueness: true
 end
